@@ -224,8 +224,8 @@ a {
 
 .btn--outline {
   background: #fff;
-  color: var(--color-headings);
   border: 2px solid var(--color-headings);
+  color: var(--color-headings);
 }
 
 .btn--outline:hover {
@@ -240,6 +240,27 @@ a {
 
 @media screen and (min-width: 1024px) {
   .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* Inputs */
+
+.input {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
     font-size: 1.5rem;
   }
 }
